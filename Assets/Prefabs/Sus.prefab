@@ -449,6 +449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1777603565138754414}
+  - component: {fileID: 6281861582228718038}
   m_Layer: 0
   m_Name: Sus
   m_TagString: Untagged
@@ -476,6 +477,19 @@ Transform:
   - {fileID: 8381977395841180207}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6281861582228718038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5591570866218085655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700d93c389e65c4290d3ce3d157d890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
 --- !u!1 &6663198484532469516
 GameObject:
   m_ObjectHideFlags: 0
