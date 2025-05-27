@@ -8,8 +8,16 @@ public class StudySomething : MonoBehaviour
     void Start()
     {
         bool isMax = currentLevel >= maxLevel;
-        Debug.Log($"현재 레벨은 만렙이 {isMax}입니다.");
+        if (isMax)
+        {
+            Debug.Log($"현재 레벨은 만렙이 아닙니다.");
+        }
+        else
+        {
+            Debug.Log($"현재 레벨은 만렙입니다.");
+        }
     }
+        
 
     // Update is called once per frame
     void Update()
