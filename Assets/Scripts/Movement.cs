@@ -3,10 +3,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 1;
-    void Start()
-    {
-        
-    }
+    public static int coinCount = 0;
 
     // Update is called once per frame
     void Update()
